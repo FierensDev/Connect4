@@ -1,0 +1,339 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('media/space.jpg');
+    /* background: black; */
+    background-repeat: no-repeat;
+ background-size: cover;
+    color: white;
+    text-align: center;
+
+}
+
+#null{
+    width: 100%;
+    height: 0;
+}
+h1{
+    padding-top: 20px;
+    font-size: 50px;
+    width: 430px;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 50px;
+    background: rgba(35, 35, 90, 0.85);
+    border-radius: 10px;
+    /* border: 2px solid blue; */
+
+    text-shadow: 2px 0 0 blue, -2px 0 0 blue, 0 2px 0 blue, 0 -2px 0 blue, 1px 1px blue, -1px -1px 0 blue, 1px -1px 0 pink, -1px 1px 0 pink;
+
+    box-shadow: 
+    0 0 10vw 0vw #7478ff,
+    0 0 2vw 0.4vw #0408fb,
+
+    inset 0 0 .5vw .2vw #7476ff,
+    inset 0 0 0.2vw 0.2vw #3134ff,
+    inset 0 0 .25vw 0.2vw #0408fb;
+    ;
+}
+
+#plateau{
+    /* background: rgb(15, 15, 71); */
+    display: inline-block;
+    text-align: center;
+
+    background: rgba(35, 35, 90, 0.85);
+    border-radius: 10px;
+    /* border: 3px solid blue;
+     */
+    
+    padding: 10px;
+
+    box-shadow: 
+    0 0 10vw 0vw #7478ff,
+    0 0 2vw 0.4vw #0408fb,
+
+    inset 0 0 .5vw .2vw #7476ff,
+    inset 0 0 0.2vw 0.2vw #3134ff,
+    inset 0 0 .25vw 0.2vw #0408fb;
+    ;
+
+     /* animation: tourner 5s linear 1 both; */
+}
+button{
+    width: auto;
+    padding: 10px;
+    font-size: 15px;
+    border: 3px solid #15f4ee;
+    letter-spacing: 10px;
+    border-radius: 10px;
+
+
+    color: #15f4ee;
+    background: black;
+
+    
+    /* transform: translateY(-200px); */
+}
+
+
+
+button:hover{
+    box-shadow: 
+    0 0px 25px 0 #15f4ee inset,
+    0 0px 15px 0 #15f4ee,
+    0 0px 15px 0 #15f4ee inset,
+    0 0px 15px 0 #15f4ee;
+
+    text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;
+}
+.colonne{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgb(168 171 182 / 52%);
+    margin: 10px;
+    display: inline-block;
+
+    /* border-radius: 10px; */
+    /* border: 3px solid blue; */
+
+    box-shadow: 
+    0 0 1vw 0vw #7478ff,
+    0 0 1vw 0.1vw #0408fb,
+
+    inset 0 0 .5vw .2vw #7476ff,
+    inset 0 0 0.2vw 0.2vw #3134ff,
+    inset 0 0 .25vw 0.2vw #0408fb;
+    ;
+}
+.colonne:hover{
+
+    box-shadow: 
+    0 0 10vw 0vw #ffffff,
+    0 0 10vw 0.1vw #ffffff,
+
+    inset 0 0 .5vw .2vw #ffffff,
+    inset 0 0 0.2vw 0.2vw #ffffff,
+    inset 0 0 .25vw 0.2vw #ffffff;
+    ;
+}
+
+
+.prevred{
+    background: rgb(248, 172, 172);
+}
+
+.joueurred{
+    /* background: red; */
+    /* transition: 10s; */
+    animation: slideDown 0.8s;
+}
+
+.prevyellow{
+    background: rgb(233, 227, 176);
+}
+
+.joueuryellow{
+    background: rgb(255, 251, 0);
+    /* transition: 10s; */
+    animation: slideDown 0.8s;
+}
+
+#vortex{
+    /* z-index: -1; */
+
+    width: 300px;
+    height: 300px;
+    background: url('media/vortex.png');
+    background-size: cover;
+
+    position: absolute;
+    top: 40%;
+    left: 40%;
+
+    /* animation: delete 10s; */
+}
+
+#etoile{
+    width: 300px;
+    height: 300px;
+    background: url('media/etoile.png');
+    background-size: cover;
+
+    position: absolute;
+    top: 39%;
+    left: 37%;
+
+    animation: pop 3s;
+}
+
+#gagnant{
+    /* background: rgb(15, 15, 71); */
+    display: inline-block;
+    text-align: center;
+    background: rgba(35, 35, 90, 0.85);
+    border-radius: 10px;
+    /* border: 3px solid blue;
+     */
+
+    /* position: absolute; */
+    margin: 100px auto;
+
+
+
+    font-size: 50px;
+    padding: 40px;
+
+    box-shadow: 
+    0 0 10vw 0vw #7478ff,
+    0 0 2vw 0.4vw #0408fb,
+
+    inset 0 0 .5vw .2vw #7476ff,
+    inset 0 0 0.2vw 0.2vw #3134ff,
+    inset 0 0 .25vw 0.2vw #0408fb;
+    ;
+
+    animation: popinverse 2s;
+}
+/* //////////////////////////// */
+
+#info{
+    top: 0;
+    z-index: 10;
+    position: absolute;
+    background: url(media/space.jpg);
+    width: 100%;
+    height: 806px;
+}
+
+#formulaire{
+    padding: 30px;
+    color: #15f4ee;
+    margin:50px auto;
+    background: #0408fb42;
+    width: 80%;
+    height: 600px;
+
+    font-size: 30px;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+}
+
+#color1, #color2{
+    padding: 0;
+    margin: 0;
+
+    width: 35px;
+    height: 35px;
+    background: blue;
+}
+
+#joueur1, #joueur2, #lignes, #colonnes{
+
+    font-size: 35px;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid #15f4ee;
+    border-left: 4px solid #15f4ee;
+}
+
+
+
+
+
+/* /////////GAGNANT////////// */
+
+@keyframes slideDown {
+    0%{
+        transform: translateY(-800px);
+    }
+    30%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    80%{
+        transform: translateY(0);
+    }
+    90%{
+        transform: translateY(-70px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes delete {
+    0%{
+        transform: scale(1);
+    }
+
+    95%{
+        transform: scale(5);
+    }
+
+    100%{
+        transform: scale(0);
+    }
+}
+
+/* @-webkit-keyframes tourner {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  } */
+  @keyframes tourner{
+    0% {
+      /* -webkit-transform: rotate(0); */
+              transform: rotate(0) scale(1);
+              /* transform: scale(1); */
+              /* width: auto; */
+    }
+    100% {
+      /* -webkit-transform: rotate(360deg); */
+              transform: rotate(360deg) scale(0);
+        /* width: 0; */
+              /* transform: scale(0); */
+    }
+  }
+
+  @keyframes popinverse{
+    0% {
+      /* -webkit-transform: rotate(0); */
+      transform: rotate(360deg) scale(0);
+              
+              /* transform: scale(1); */
+              /* width: auto; */
+    }
+    100% {
+      /* -webkit-transform: rotate(360deg); */
+      transform: rotate(0) scale(1);
+        /* width: 0; */
+              /* transform: scale(0); */
+    }
+  }
+  
+@keyframes pop{
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
