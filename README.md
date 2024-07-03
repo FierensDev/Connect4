@@ -1,16 +1,16 @@
-# :video_game: PUISSANCE 4 : HTML CSS JS JQUERY :joystick:  
+# :video_game: CONNECT 4 : HTML CSS JS JQUERY :joystick:  
 
 ---------------
 
-Projet de début d'année sur une durée de 1 semaine, introduction Javascript, Jquery, HTML, CSS.
+Early year project spanning 1 week, introducing Javascript, JQuery, HTML, CSS.
 
-`Démarrer le projet :`
+`To start the project :`
 
 ```
-Cloner le dépôt
-Ouvrir l'index dans le navigateur
+Clone the repository
+Open the index file in the browser
 
-Trouver un adversaire & HAVE FUN ! 🏆
+Find an opponent & HAVE FUN ! 🏆
 ```
 <p align="center">
     <img align="center" src="Puissance4.gif" height="200px" alt="e-commerceGIF">
